@@ -21,13 +21,29 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		4B27AD6B1A3B27AA007A4511 /* NSString+Characters.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B27AD691A3B27AA007A4511 /* NSString+Characters.h */; };
+		4B27AD6C1A3B27AA007A4511 /* NSString+Characters.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B27AD6A1A3B27AA007A4511 /* NSString+Characters.m */; };
+		4B27AD701A3B2834007A4511 /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B27AD6E1A3B2834007A4511 /* UIView+Toast.h */; };
+		4B27AD711A3B2834007A4511 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B27AD6F1A3B2834007A4511 /* UIView+Toast.m */; };
+		4B27AD751A3B289F007A4511 /* ANTFileTypr.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B27AD731A3B289F007A4511 /* ANTFileTypr.h */; };
+		4B27AD761A3B289F007A4511 /* ANTFileTypr.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B27AD741A3B289F007A4511 /* ANTFileTypr.m */; };
 		4B737FDB1A3AED61001710B4 /* IOANTFrameWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B737FDA1A3AED61001710B4 /* IOANTFrameWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B737FE51A3AED61001710B4 /* IOANTFrameWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B737FE41A3AED61001710B4 /* IOANTFrameWorkTests.m */; };
 		4B737FF21A3AEDD9001710B4 /* LogUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B737FF01A3AEDD9001710B4 /* LogUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B737FF31A3AEDD9001710B4 /* LogUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B737FF11A3AEDD9001710B4 /* LogUtil.m */; };
+		4B829D931A3B2355003EAB9B /* ANTChineseToPinYin.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B829D911A3B2355003EAB9B /* ANTChineseToPinYin.h */; };
+		4B829D941A3B2355003EAB9B /* ANTChineseToPinYin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B829D921A3B2355003EAB9B /* ANTChineseToPinYin.m */; };
+		4B829D971A3B2397003EAB9B /* ANTPinYin.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B829D951A3B2397003EAB9B /* ANTPinYin.h */; };
+		4B829D981A3B2397003EAB9B /* ANTPinYin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B829D961A3B2397003EAB9B /* ANTPinYin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B27AD691A3B27AA007A4511 /* NSString+Characters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Characters.h"; sourceTree = "<group>"; };
+		4B27AD6A1A3B27AA007A4511 /* NSString+Characters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Characters.m"; sourceTree = "<group>"; };
+		4B27AD6E1A3B2834007A4511 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		4B27AD6F1A3B2834007A4511 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		4B27AD731A3B289F007A4511 /* ANTFileTypr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANTFileTypr.h; sourceTree = "<group>"; };
+		4B27AD741A3B289F007A4511 /* ANTFileTypr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANTFileTypr.m; sourceTree = "<group>"; };
 		4B737FD51A3AED61001710B4 /* IOANTFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IOANTFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B737FD91A3AED61001710B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B737FDA1A3AED61001710B4 /* IOANTFrameWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOANTFrameWork.h; sourceTree = "<group>"; };
@@ -36,6 +52,10 @@
 		4B737FE41A3AED61001710B4 /* IOANTFrameWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOANTFrameWorkTests.m; sourceTree = "<group>"; };
 		4B737FF01A3AEDD9001710B4 /* LogUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogUtil.h; sourceTree = "<group>"; };
 		4B737FF11A3AEDD9001710B4 /* LogUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogUtil.m; sourceTree = "<group>"; };
+		4B829D911A3B2355003EAB9B /* ANTChineseToPinYin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANTChineseToPinYin.h; sourceTree = "<group>"; };
+		4B829D921A3B2355003EAB9B /* ANTChineseToPinYin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANTChineseToPinYin.m; sourceTree = "<group>"; };
+		4B829D951A3B2397003EAB9B /* ANTPinYin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANTPinYin.h; sourceTree = "<group>"; };
+		4B829D961A3B2397003EAB9B /* ANTPinYin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANTPinYin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B27AD6D1A3B2834007A4511 /* toast */ = {
+			isa = PBXGroup;
+			children = (
+				4B27AD6E1A3B2834007A4511 /* UIView+Toast.h */,
+				4B27AD6F1A3B2834007A4511 /* UIView+Toast.m */,
+			);
+			path = toast;
+			sourceTree = "<group>";
+		};
+		4B27AD721A3B286C007A4511 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				4B27AD731A3B289F007A4511 /* ANTFileTypr.h */,
+				4B27AD741A3B289F007A4511 /* ANTFileTypr.m */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
 		4B737FCB1A3AED61001710B4 = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +115,10 @@
 		4B737FD71A3AED61001710B4 /* IOANTFrameWork */ = {
 			isa = PBXGroup;
 			children = (
-				4B737FEE1A3AEDB0001710B4 /* common */,
 				4B737FDA1A3AED61001710B4 /* IOANTFrameWork.h */,
+				4B7380311A3B20DC001710B4 /* networking */,
+				4B7380301A3B20BB001710B4 /* ui */,
+				4B737FEE1A3AEDB0001710B4 /* common */,
 				4B737FD81A3AED61001710B4 /* Supporting Files */,
 			);
 			path = IOANTFrameWork;
@@ -112,6 +152,7 @@
 		4B737FEE1A3AEDB0001710B4 /* common */ = {
 			isa = PBXGroup;
 			children = (
+				4B27AD721A3B286C007A4511 /* data */,
 				4B737FEF1A3AEDB0001710B4 /* util */,
 			);
 			path = common;
@@ -120,10 +161,31 @@
 		4B737FEF1A3AEDB0001710B4 /* util */ = {
 			isa = PBXGroup;
 			children = (
+				4B27AD691A3B27AA007A4511 /* NSString+Characters.h */,
+				4B27AD6A1A3B27AA007A4511 /* NSString+Characters.m */,
 				4B737FF01A3AEDD9001710B4 /* LogUtil.h */,
 				4B737FF11A3AEDD9001710B4 /* LogUtil.m */,
+				4B829D911A3B2355003EAB9B /* ANTChineseToPinYin.h */,
+				4B829D921A3B2355003EAB9B /* ANTChineseToPinYin.m */,
+				4B829D951A3B2397003EAB9B /* ANTPinYin.h */,
+				4B829D961A3B2397003EAB9B /* ANTPinYin.m */,
 			);
 			path = util;
+			sourceTree = "<group>";
+		};
+		4B7380301A3B20BB001710B4 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				4B27AD6D1A3B2834007A4511 /* toast */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		4B7380311A3B20DC001710B4 /* networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,8 +195,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B27AD6B1A3B27AA007A4511 /* NSString+Characters.h in Headers */,
 				4B737FDB1A3AED61001710B4 /* IOANTFrameWork.h in Headers */,
+				4B829D931A3B2355003EAB9B /* ANTChineseToPinYin.h in Headers */,
 				4B737FF21A3AEDD9001710B4 /* LogUtil.h in Headers */,
+				4B829D971A3B2397003EAB9B /* ANTPinYin.h in Headers */,
+				4B27AD701A3B2834007A4511 /* UIView+Toast.h in Headers */,
+				4B27AD751A3B289F007A4511 /* ANTFileTypr.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +321,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B737FF31A3AEDD9001710B4 /* LogUtil.m in Sources */,
+				4B829D981A3B2397003EAB9B /* ANTPinYin.m in Sources */,
+				4B829D941A3B2355003EAB9B /* ANTChineseToPinYin.m in Sources */,
+				4B27AD711A3B2834007A4511 /* UIView+Toast.m in Sources */,
+				4B27AD761A3B289F007A4511 /* ANTFileTypr.m in Sources */,
+				4B27AD6C1A3B27AA007A4511 /* NSString+Characters.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +529,7 @@
 				4B737FEA1A3AED61001710B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B737FEB1A3AED61001710B4 /* Build configuration list for PBXNativeTarget "IOANTFrameWorkTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +538,7 @@
 				4B737FED1A3AED61001710B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B73802C1A3B0B3A001710B4 /* Build configuration list for PBXAggregateTarget "IOANTFrameWorkScript" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +547,7 @@
 				4B73802E1A3B0B3A001710B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
