@@ -1,0 +1,6 @@
+framework module IOANTFrameWork {
+  umbrella header "IOANTFrameWork.h"
+
+  export *
+  module * { export * }
+}
